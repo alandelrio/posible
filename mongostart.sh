@@ -1,2 +1,2 @@
-mongod --dbpath /Users/adelrio/Projects/posible/data/db
+mongod --dbpath /Users/adelrio/Projects/mongodb/data/db
 
