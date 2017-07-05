@@ -1,30 +1,45 @@
-# posible
+<!DOCTYPE html>
+<html>
+<head>
+	<title><# posible/title>
+</head>
+<body>
 
+<h1># posible</h1>
 
 <h2>How to start the server</h2>
-* git clone https://github.com/alandelrio/posible.git
-* node server.js
-* export PATH=/Users/adelrio/Projects/mongodb/bin:$PATH
-* ~/Projects/posible/mongostart.sh
-* http://localhost:3000 for nodejs
-* http://localhost:27017 for mongodb
-
+<ul>
+<li> git clone https://github.com/alandelrio/posible.git</li>
+<li> node server.js</li>
+<li>export PATH=/Users/adelrio/Projects/mongodb/bin:$PATH</li>
+<li>~/Projects/posible/mongostart.sh</li>
+<li>http://localhost:3000 for nodejs</li>
+<li>http://localhost:27017 for mongodb</li>
+</ul>
 
 <h2>Tech Stack</h2>
-* https://nodejs.org/en/
-* npm install express
-* https://angularjs.org/
-* http://getbootstrap.com/getting-started/#download
-* https://www.mongodb.com/dr/fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-3.4.5.tgz/download
-* npm install mongojs
-
+<ul>
+<li>https://nodejs.org/en/</li>
+<li>npm install express</li>
+<li>https://angularjs.org/</li>
+<li>http://getbootstrap.com/getting-started/#download</li>
+<li>https://www.mongodb.com/dr/fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-3.4.5.tgz/download</li>
+<li>npm install mongojs</li>
+</ul>
 
 <h2>Tutorials</h2>h2>
-* https://www.youtube.com/watch?v=iFsYJG3fGro
-* https://docs.mongodb.com/manual/reference/sql-comparison/
-* http://www.investopedia.com/terms/s/stock-keeping-unit-sku.asp
-* https://www.npmjs.com/package/mongojs
-
+<ul>
+<li>https://www.youtube.com/watch?v=iFsYJG3fGro</li>
+<li>https://docs.mongodb.com/manual/reference/sql-comparison/</li>
+<li>http://www.investopedia.com/terms/s/stock-keeping-unit-sku.asp</li>
+<li>https://www.npmjs.com/package/mongojs</li>
+</ul>
 
 <h2>Contact</h2>
-* Ann <delrio_alan@yahoo.com>
+<ul>
+<li>Ann <delrio_alan@yahoo.com></li>
+</ul>
+
+</body>
+</html>
+
