@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><# posible/title>
+	<title>posible</title>
 </head>
 <body>
 
-<h1># posible</h1>
+# posible
 
 <h2>How to start the server</h2>
 <ul>
@@ -27,7 +27,7 @@
 <li>npm install mongojs</li>
 </ul>
 
-<h2>Tutorials</h2>h2>
+<h2>Tutorials</h2>
 <ul>
 <li>https://www.youtube.com/watch?v=iFsYJG3fGro</li>
 <li>https://docs.mongodb.com/manual/reference/sql-comparison/</li>
@@ -37,7 +37,7 @@
 
 <h2>Contact</h2>
 <ul>
-<li>Ann <delrio_alan@yahoo.com></li>
+<li><a href="mailto:delrio_alan@yahoo.com">Ann</a></li>
 </ul>
 
 </body>
