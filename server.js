@@ -1,5 +1,13 @@
 var express = require("express");
 var route = express();
+var mongodb = require('mongodb')
+var mongojs = require('mongojs')
+ 
+mongodb.Db.connect('mongodb://localhost:27017/posible', 
+	function (err, theDb) {
+    	var db = mongojs(theDb, ['stocks'])
+	}
+);
 
 route.use(express.static(__dirname + "/public"));
 
