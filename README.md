@@ -14,6 +14,8 @@
 <li>~/Projects/posible/mongostart.sh</li>
 <li>http://localhost:3000 for nodejs</li>
 <li>http://localhost:27017 for mongodb</li>
+<li>npm install nodemon --save-dev</li>
+<li>./node_modules/.bin/nodemon server.js</li>
 </ul>
 
 <h2>Tech Stack</h2>

@@ -10,6 +10,16 @@
 	<title>PoSible!</title>
 </head>
 <body>
+
+
+		<form action="/stocks" method="POST">
+		  <input type="text" placeholder="sku" name="sku">
+		  <input type="text" placeholder="upc" name="upc">
+		  <input type="text" placeholder="name" name="name">
+		  <input type="text" placeholder="size" name="size">
+		  <button type="submit">Submit</button>
+		</form>
+
 <div class="container" ng-controller="AppCtrl">
 	<h1>Inventory List</h1>
 	<table class="table">
@@ -19,16 +29,18 @@
 			<td>UPC</td>
 			<td>Name</td>
 			<td>Size</td>
-			<td>Quantity</td>
 		</tr>
+		</thead>
+		<tbody>
 		<tr ng-repeat="stock in stockList">
 			<td>{{stock.sku}}</td>
 			<td>{{stock.upc}}</td>
 			<td>{{stock.name}}</td>
 			<td>{{stock.size}}</td>
-			<td>{{stock.quantity}}</td>
 		</tr>
-		</thead>
+		</tbody>
+		<tr>
+		</tr>
 	</table>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
