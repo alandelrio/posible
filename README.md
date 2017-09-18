@@ -9,13 +9,14 @@
 <h2>How to start the server</h2>
 <ul>
 <li> git clone https://github.com/alandelrio/posible.git</li>
-<li> node server.js</li>
 <li>export PATH=/Users/adelrio/Projects/mongodb/bin:$PATH</li>
 <li>~/Projects/posible/mongostart.sh</li>
+<li> node server.js</li>
+<li>./node_modules/.bin/nodemon server.js</li>
 <li>http://localhost:3000 for nodejs</li>
 <li>http://localhost:27017 for mongodb</li>
-<li>npm install nodemon --save-dev</li>
-<li>./node_modules/.bin/nodemon server.js</li>
+<li>npm install --save-dev nodemon</li>
+<li>npm run dev</li>
 </ul>
 
 <h2>Tech Stack</h2>
@@ -34,6 +35,8 @@
 <li>https://docs.mongodb.com/manual/reference/sql-comparison/</li>
 <li>http://www.investopedia.com/terms/s/stock-keeping-unit-sku.asp</li>
 <li>https://www.npmjs.com/package/mongojs</li>
+<li>https://www.w3schools.com/angular/</li>
+<li>https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2</li>
 </ul>
 
 <h2>Contact</h2>
